@@ -137,7 +137,7 @@ export class ProjectsService {
     },
     {
       name: 'Inspired GGJ',
-      year: '2013',
+      year: '2014',
       picture: 'assets/images/inspired.png',
       description: `Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin
         posuere urna.Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus
