@@ -5,3 +5,27 @@ $fa-font-path : '../node_modules/font-awesome/fonts';
 @import '../node_modules/skel-framework-npm/dist/skel';
 
 @import './theme/main';
+
+.fa-button {
+    display: inline-block;
+}
+
+.fa-button:before {
+    border-radius: 100%;
+    border: solid 2px rgba(255, 255, 255, 0.125);
+    display: inline-block;
+    font-size: 1em;
+    height: 2.5em;
+    left: 0;
+    line-height: 2.35em;
+    text-align: center;
+    width: 2.5em;
+}
+
+.grow {
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+.grow:hover { 
+    transform: scale(1.2); 
+}
