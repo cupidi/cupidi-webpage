@@ -177,11 +177,11 @@ export class ProjectsService {
       projectMembers: [
         {
           name: 'Mario Ampov',
-          role: 'Front End Developer'
+          role: 'Web Developer'
         },
         {
           name: 'Irena Ljubikj',
-          role: 'Frond End Developer'
+          role: 'Web Developer'
         },
         {
           name: 'Vladimir Vasilevski',
@@ -249,11 +249,11 @@ export class ProjectsService {
       projectMembers: [
         {
           name: 'Mario Ampov',
-          role: 'Full Stack Developer'
+          role: 'Web Developer'
         },
         {
           name: 'Irena Ljubikj',
-          role: 'Front End Developer'
+          role: 'Web Developer'
         },
         {
           name: 'Marijan Petrovski',
@@ -305,7 +305,7 @@ export class ProjectsService {
       projectMembers: [
         {
           name: 'Mario Ampov',
-          role: 'Front End Developer'
+          role: 'Web Developer'
         },
         {
           name: 'Ivan Velickovski',
@@ -333,54 +333,6 @@ export class ProjectsService {
           icon: 'fa-apple',
           link: 'https://itunes.apple.com/mk/app/eksterno/id1015920718'
         }
-      ]
-    },
-    {
-      name: 'Nederman',
-      year: '2017',
-      picture: 'assets/images/nederman.png',
-      description: `Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin
-        posuere urna.Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus
-        viverra, ex nulla cursus.`,
-      projectMembers: [
-        {
-          name: 'Mario Ampov',
-          role: 'Front End Developer'
-        }
-      ],
-      projectActions: [
-      ]
-    },
-    {
-      name: 'Viacura Optimus',
-      picture: 'assets/images/viacuraoptimus.png',
-      year: '2016',
-      description: `Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin
-        posuere urna.Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus
-        viverra, ex nulla cursus.`,
-      projectMembers: [
-        {
-          name: 'Mario Ampov',
-          role: 'Ionic Developer'
-        }
-      ],
-      projectActions: [
-      ]
-    },
-    {
-      name: 'Game of Sports',
-      year: '2015',
-      picture: 'assets/images/gameofspoorts.png',
-      description: `Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin
-        posuere urna.Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus
-        viverra, ex nulla cursus.`,
-      projectMembers: [
-        {
-          name: 'Mario Ampov',
-          role: 'Full Stack Developer'
-        }
-      ],
-      projectActions: [
       ]
     }
   ];

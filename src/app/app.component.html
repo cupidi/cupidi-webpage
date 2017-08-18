@@ -12,7 +12,19 @@
     </div>
   </section>
 
-  <router-outlet></router-outlet>
+  <section *ngFor="let project of projects; let i = index" class="wrapper spotlight" [ngClass]="['style' + ((i % 3) + 1), i % 2 == 1 ? 'alt' : '']">
+    <div class="inner">
+      <a href="#" class="image"><img [src]="project.picture" alt="" /></a>
+      <div class="content">
+        <h2 class="major">{{project.name}} ({{project.year}})</h2>
+        <p>{{project.description}}</p>
+        <p><span *ngFor="let member of project.projectMembers; let l = last"><strong>{{member.name}}: </strong>{{member.role}} <br *ngIf="!l"></span></p>
+        <ul class="icons">
+          <li *ngFor="let action of project.projectActions"><a class="icon grow fa-button" [ngClass]="action.icon" [href]="action.link" target="_blank"></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
   <section id="footer">
     <div class="inner">
