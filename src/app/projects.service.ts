@@ -1,22 +1,22 @@
 import { Injectable } from '@angular/core';
 
 export interface ProjectMember {
-  name: string,
-  role: string
+  name: string;
+  role: string;
 }
 
 export interface ProjectAction {
-  icon: string,
-  link: string
+  icon: string;
+  link: string;
 }
 
 export interface Project {
-  name: string,
-  year: string,
-  picture: string,
-  description: string,
-  projectMembers: ProjectMember[],
-  projectActions?: ProjectAction[]
+  name: string;
+  year: string;
+  picture: string;
+  description: string;
+  projectMembers: ProjectMember[];
+  projectActions?: ProjectAction[];
 }
 
 @Injectable()
@@ -27,7 +27,7 @@ export class ProjectsService {
       name: 'Mi se jade',
       year: '2017',
       picture: 'assets/images/misejade.png',
-      description: `The idea behind this project came while me and my friend were working together and we could not decide what to eat.
+      description: `The idea behind this project came while me and my friends were working together and we could not decide what to eat.
       This project is a web application that solves that problem and helps people find interesting meals near them.
       Currently it works only in Skopje, Macedonia.`,
       projectMembers: [
@@ -59,7 +59,7 @@ export class ProjectsService {
       name: 'FitKit',
       year: '2017',
       picture: 'assets/images/fitkit.png',
-      description: `Mobile applications for people that do a lot of workouts. It allows you to pay only one subscription
+      description: `Mobile application for people that do a lot of workouts. It allows you to pay only one subscription
       and workout everything, anywhere and anytime you choose, at the best gyms and studios near you.`,
       projectMembers: [
         {
@@ -152,7 +152,7 @@ export class ProjectsService {
       year: '2014',
       picture: 'assets/images/eksterno.png',
       description: `Small, free time project that was inspired by the changes in the educational system in Macedonia that
-      introduced new testing for high school students. Web and mobile quiz with funny questions written 
+      introduced new testing for high school students. Web and mobile quiz with funny questions written
       by the Macedonian twitter community.`,
       projectMembers: [
         {
@@ -191,9 +191,9 @@ export class ProjectsService {
       name: 'Klonk',
       year: '2016-Present',
       picture: 'assets/images/klonk.png',
-      description: `Free time project me and my friends are working on. This mobile game is an endless runner that takes place
+      description: `Free time project that me and my friends are working on. This mobile game is an endless runner that takes place
       in a kind of a voxel world, where you are trying to outrun the antagonist. You can challenge your friends, collect coins
-      and unlock new characters`,
+      and unlock new characters.`,
       projectMembers: [
         {
           name: 'Mario Ampov',
@@ -228,7 +228,8 @@ export class ProjectsService {
       year: '2015',
       picture: 'assets/images/puzzlepilot.png',
       description: `This is my first game that made it to the stores. It is a mobile puzzle game that me and a group of friends
-      did in our free time. The game has a galaxy exploration matched with a gameplay that challenges your color matching abilities.`,
+      did in our free time. The game has a galaxy exploration theme combined with a gameplay that
+      challenges your color matching abilities.`,
       projectMembers: [
         {
           name: 'Mario Ampov',
@@ -279,7 +280,7 @@ export class ProjectsService {
       year: '2016',
       picture: 'assets/images/riteofpassage.png',
       description: `Prototype for the Global Game Jam 2016 with the theme "Ritual". In this game, you play a young boy who
-      is send on a journey to earn his rite of passage and become a warrior. The game is a 2D platformer with an interesting plane
+      is sent on a journey to earn his rite of passage and become a warrior. The game is a 2D platformer with an interesting plane
       switching mechanics.`,
       projectMembers: [
         {
