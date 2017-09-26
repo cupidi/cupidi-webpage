@@ -37,9 +37,10 @@
     "font-awesome": "^4.7.0",
     "rxjs": "^5.4.2",
     "skel-framework-npm": "^1.0.1",
+    "smoothscroll-polyfill": "^0.4.0",
     "zone.js": "^0.8.14"
   },
-  "devDependencies": {    
+  "devDependencies": {
     "@angular/cli": "1.4.1",
     "@angular/compiler-cli": "^4.3.0",
     "@angular/language-service": "^4.3.0",

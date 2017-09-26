@@ -8,14 +8,20 @@ import { ProjectsService, Project } from './projects.service';
 })
 export class AppComponent implements OnInit {
 
-  projects: Project[];
+  gameProjects: Project[];
+  otherProjects: Project[];
 
   constructor(
     private projectsService: ProjectsService
   ) { }
 
   ngOnInit() {
-    this.projects = this.projectsService.projects;
+    this.gameProjects = this.projectsService.gameProjects;
+    this.otherProjects = this.projectsService.otherProjects;
+  }
+
+  scroll(el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' });
   }
 
 }

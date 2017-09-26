@@ -22,7 +22,7 @@ export interface Project {
 @Injectable()
 export class ProjectsService {
 
-  public projects: Project[] = [
+  public otherProjects: Project[] = [
     {
       name: 'Mi se jade',
       year: '2017',
@@ -186,7 +186,10 @@ export class ProjectsService {
           link: 'https://itunes.apple.com/mk/app/eksterno/id1015920718'
         }
       ]
-    },
+    }
+  ];
+
+  public gameProjects: Project[] = [
     {
       name: 'Klonk',
       year: '2016-Present',
